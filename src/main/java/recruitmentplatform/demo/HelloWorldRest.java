@@ -12,7 +12,6 @@ public class HelloWorldRest {
         return ResponseEntity.ok()
                 .body(get());
     }
-
     public String get(){
         return "witajSwiecie";
     }
