@@ -13,7 +13,7 @@ class DemoApplicationTests {
 
     @Test
     public void shouldReturnText() throws Exception {
-        String expected = "witajSwiecie";
+        String expected = "witawiecie";
         String received = "witajSwiecie";
         Assertions.assertEquals(received, expected);
     }
